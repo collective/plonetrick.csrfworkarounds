@@ -1,0 +1,13 @@
+/buildout.d/.installed.cfg
+/buildout.d/.mr.developer.cfg
+/buildout.d/bin
+/buildout.d/buildout.cfg
+/buildout.d/develop-eggs
+/buildout.d/include/
+/buildout.d/lib
+/buildout.d/local/
+/buildout.d/parts
+/buildout.d/src/
+/buildout.d/var
+/docs/html
+/{{{ package.ns0 }}}.{{{ package.ns1 }}}.egg-info/
