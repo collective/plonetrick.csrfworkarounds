@@ -10,4 +10,11 @@
     permission="zope2.Public"
   />
 
+  <browser:page
+    name="tinymce-jsonconfiguration-csrf-free"
+    for="*"
+    class=".tinymce.JsonConfiguration"
+    permission="zope2.View"
+  />
+
 </configure>
