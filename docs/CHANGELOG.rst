@@ -8,5 +8,5 @@ Changelog
 ------------------
 
 - Initial release.
-  [YOUR NAME HERE]
+  [ale-rt]
 
