@@ -34,7 +34,7 @@ is using this code snippet::
 
 This solution is better than the workaround provided by this package.
 The workaround consist in customizing the template
-adding a call to ``here/disable_csrf_protection/disable``, e.g.:::
+adding a call to ``here/disable_csrf_protection/disable``, e.g.::
 
     <metal:slot fill-slot="top_slot" tal:define="dummy here/@@disable_csrf_protection/disable" />
 
