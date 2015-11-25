@@ -4,9 +4,9 @@ plonetrick.csrfworkarounds
 
 Links:
 
-* `Source code @ GitHub <https://github.com/ale-rt/plonetrick.csrfworkarounds>`_
+* `Source code @ GitHub <https://github.com/collective/plonetrick.csrfworkarounds>`_
 * `Releases @ PyPI <http://pypi.python.org/pypi/plonetrick.csrfworkarounds>`_
-* `Continuous Integration @ Travis-CI <http://travis-ci.org/ale-rt/plonetrick.csrfworkarounds>`_
+* TODO: `Continuous Integration @ Travis-CI <http://travis-ci.org/ale-rt/plonetrick.csrfworkarounds>`_
 
 How it works
 ============
@@ -50,6 +50,8 @@ so I added the workaround view ``tinymce-jsonconfiguration-csrf-free``
 that wraps the original one adding the requested header.
 
 Example usage:
+
+.. code-block:: javascript
 
   jQuery.ajax({
     url: portal_url + '/@@tinymce-jsonconfiguration-csrf-free?field=' + encodeURI(element.attr('name')),
